@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #fefefe;
+  background: #353535;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #353535;
+  color: #b5b5ff;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  cursor: default;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  color: #b5b5ff;
+  cursor: default;
+}
+
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.image-section {
+  text-align: center;
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bio {
+  margin-top: 2rem;
+  text-align: justify;
+  color: #eaeaea;
+  cursor: default;
+}
+
+.bio h1 {
+  text-align: center;
+  color: #b5b5ff;
+  cursor: default;
+}
+
+.timeline {
+  margin-top: 2rem;
+}
+
+.timeline h1 {
+  color: #b5b5ff;
+  cursor: default;
+}
+
+.timeline h1:hover {
+  text-decoration: underline;
+  transition: 1s ease;
+  text-underline-offset: 1rem;
+  cursor: default;
+}
+
+.timeline ul {
+  list-style: none;
+  padding: 0;
+}
+
+.timeline ul li {
+  background-color: #353535;
+  color: #eaeaea;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 5px;
+  border-left: 4px solid #b5b5ff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+
+.timeline ul li:hover {
+  background: #242424;
+}
+
+.details-section {
+  display: none;
+  background: #232323;
+  text-align: justify;
+  color: #e9e9e9;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 20px;
+  border-left: 4px solid #b5b5ff;
+  cursor: default;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+footer {
+  text-align: center;
+  background: #202020;
+  color: #b5b5ff;
+  padding: 1px;
+  margin-bottom: 0;
+  cursor: default;
+}
